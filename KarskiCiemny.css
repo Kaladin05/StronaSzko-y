@@ -1,16 +1,41 @@
 body {
     font-family: "Times New Roman";
 }
-#Background {
-    display: inline;
-    padding: 5px;
-    background-color: #0033CC;
-    width: 60%;
-    height: 10%;
+#BackgroundUp {
+    display: inline-block;
+    background-color: rgb(0, 32, 129);
+    height: 20%;
+      position: absolute;
+      top: 0;
+      left: center;
+      width: 100%;
 }
 #Foreground {
-   padding: 10px;
-    width: 15%;
-    height: 40%;
-    background-color:#777777;
+    display: inline-block;
+    background-color:#232323;
+    height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 18%;
+}
+
+#Photo {
+    background-color: rgb(255, 0, 221);
+    height:30%;
+    position: absolute;
+    top: 15%;
+    left: center;
+    width: 100%;
+
+}
+
+#BackgroundDown {
+    display: inline-block;
+    background-color:#232323;
+    height: 50%;
+      position: absolute;
+      top: 50%;
+      left: center;
+      width: 100%;
 }

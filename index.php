@@ -6,13 +6,15 @@
 
         <title> Zespół Szkół nr.42 imienia Jana Karskiego </title>
 
+        <link rel="stylesheet" href="KarskiCiemny.css">
+
     </head>
 
     <body>
 
-        <section align = "center"; id="Background">
+        <section align = "center"; class="BackgroundUp">
         
-            <h1 aling = "center"; > Strona główna | Rodo | Konkursy | Dla nauczycieli | Dla uczniów </h1> <button type="button"> Login </button>
+            <h1 aling = "center"; > Strona główna | Rodo | Konkursy | Dla nauczycieli | Dla uczniów </h1> <a href=""> <button type="button"> Login </button> </a>
 
         </section>
 
@@ -22,7 +24,7 @@
 
         </section>
 
-        <section align = "center"; id="Background">
+        <section align = "center"; id="BackgroundDown">
         
             <h1> i informację </h1>
 
