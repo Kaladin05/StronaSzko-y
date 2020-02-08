@@ -10,32 +10,32 @@
 
     <body>
 
-        <div align = "center"; id="Background">
+        <section align = "center"; id="Background">
         
-            <h1 aling = "center"> Strona główna | Rodo | Konkursy | Dla nauczycieli | Dla uczniów </h1>
+            <h1 aling = "center"; > Strona główna | Rodo | Konkursy | Dla nauczycieli | Dla uczniów </h1> <button type="button"> Login </button>
 
-        </div>
+        </section>
 
-        <div align = "center"; id="Photo" >
+        <section align = "center"; id="Photo" >
         
             <img src="./Image/images.jpeg">
 
-        </div>
+        </section>
 
-        <div align = "center"; id="Background">
+        <section align = "center"; id="Background">
         
             <h1> i informację </h1>
 
-        </div>
+        </section>
 
-        <div align = "left"; id="Foreground" >
+        <section align = "left"; id="Foreground" >
         
             <a> <h3> Podstrony </h3> </a> <br>
             <a> <h3> Technik Informatyk </h3> </a> <br>
             <a> <h3> Technik Turystyki </h3> </a> <br>
             <a> <h3> Oddział dla młodocianych pracowników </h3> </a>
 
-        </div>
+        </section>
     
     </body>
 
