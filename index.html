@@ -1,65 +1,89 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pl">
 
-    <head>
+<head>
 
-        <style>
+    <style>
 
-            body {
+        body {
 
-                background-color: #333333;
-                text-align: center;
-                color: white;
+            background-color: #333333;
+            text-align: center;
+            color: white;
 
-            }
+        }
 
-            .LeftBar {
-                width: 20%;
-                background-color: #121212;
-                text-align: left;
-                color: white;
+        .link {
+            color: white;
+            text-decoration: none;
+        }
 
-            }
+        .link:hover{
+            animation-name: linkanimation;
+            animation-duration: 3s;
+        }
 
-            .HederBar {
+        @keyframes linkanimation {
 
-                background-color: #242424;
-                text-align: center;
-                color: white;
+            from { font-size: 32px; }
+            to { font-size: 42px; }
 
-            }
+        }
 
-            .Messages {
+        .LeftBar {
 
-                text-align: left;
-                color: white;
+            position: absolute;
+            background-color: #191919;
+            top: 150px;
+            width: 200px;
+            height: 280px;
+            text-align: center;
+            color: white;
 
-            }
+        }
 
-        </style>
+        .HederBar {
 
-    </head>
+            background-color: #242424;
+            text-align: center;
+            color: white;
+            padding: 30px;
 
-    <body>
+        }
 
-        <div class="HederBar">
-            <font style="font-size:48px"> Technikum nr 8 im. Jana Karskiego </font>
-        </div>
+        .Messages {
 
-        <div class="LeftBar">
-            <font style="font-size:32px"> <a href="https://github.com/Karski1Bi" > Github </a> <br> Projekty <br> Wyjścia  </font>
-        </div>
+            position: absolute;
+            top: 470px;
+            text-align: left;
+            color: white;
 
-        <div class="PlaceForImage">
-            <img src="" >
-        </div>
+        }
 
-        <div class="Messages">
-            <font style="font-size:24px"> Strona klasy 1Bi w technikum nr 8 im Jana Karskiego </font> <br> <font style="font-size:16px"> Na tej stronie będą publikowanie projekty, wyjścia i sukcesy naszej klasy. </font>
-        </div>
+    </style>
+
+</head>
+
+<body>
+
+<div class="HederBar">
+    <font style="font-size:48px"> Technikum nr 8 im. Jana Karskiego </font>
+</div>
+
+<div class="LeftBar">
+    <font style="font-size:32px; color:#FFFFFF"> <br> <a class="link" href="https://github.com/Karski1Bi" > Github </a> <br><br> Projekty <br><br> Wyjścia  </font>
+</div>
+
+<div class="PlaceForImage">
+    <img src="" >
+</div>
+
+<div class="Messages">
+    <font style="font-size:24px"> Strona klasy 1Bi w technikum nr 8 im Jana Karskiego </font> <br> <font style="font-size:16px"> Na tej stronie będą publikowanie projekty, wyjścia i sukcesy naszej klasy. </font>
+</div>
 
 
-    </body>
+</body>
 
 </html>
