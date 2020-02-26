@@ -1,2 +1,2 @@
-# StronaSzko-y
+# StronaSzkoły
 Projekt strony szkoły
