@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="pl">
+<html>
 
 <head>
 
@@ -15,25 +15,31 @@
         }
 
         .link {
+
+            font-size: 32px;
             color: white;
             text-decoration: none;
         }
 
-        .link:hover{
+        .link:hover {
             animation-name: linkanimation;
-            animation-duration: 3s;
+            animation-duration: 1.3s;
+            animation-delay: 0s;
+            animation-timing-function: cubic-bezier(-1,-1,-1,-1);
+            animation-fill-mode: revert;
         }
 
         @keyframes linkanimation {
 
-            from { font-size: 32px; }
-            to { font-size: 42px; }
+            0% { font-size: 32px; }
+            100% { font-size: 42px; }
 
         }
 
         .LeftBar {
 
             position: absolute;
+            border-radius: 20px;
             background-color: #191919;
             top: 150px;
             width: 200px;
@@ -45,6 +51,7 @@
 
         .HederBar {
 
+            border-radius: 10px;
             background-color: #242424;
             text-align: center;
             color: white;
