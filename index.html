@@ -13,20 +13,20 @@
             color: white;
 
         }
-
-        #link {
-
-            font-size: 32px;
+        
+        #link a{
             color: white;
             text-decoration: none;
         }
+        #link{
+            font-size: 32px;
+            transition: transform 0.5s ease-in-out;
+        }
 
-        #link:hover {
-
-            animation-name: linkanimation;
-            animation-duration: 1s;
-            animation-delay: 0s;
-
+        #link:hover{
+            -webkit-transform: scale(2);
+            -ms-transform: scale(2);
+            transform: scale(2);
         }
 
         @keyframes linkanimation {
@@ -80,7 +80,7 @@
 </div>
 
 <div class="LeftBar">
-    <font style="font-size:32px; color:#FFFFFF"> <br> <a id="link" href="https://github.com/Karski1Bi" > Github </a> <br><br> Projekty <br><br> Wyjścia  </font>
+    <font style="font-size:32px; color:#FFFFFF"> <br> <div id=link><a href="https://github.com/Karski1Bi" > Github </a></div> <br> Projekty <br><br> Wyjścia  </font>
 </div>
 
 <div class="PlaceForImage">
