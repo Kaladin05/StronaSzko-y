@@ -14,18 +14,22 @@
 
         }
 
-        #link {
+        .link a{
 
-            font-size: 32px;
             color: white;
             text-decoration: none;
         }
 
-        #link:hover {
+        .link{
+            font-size: 32px;
+            transition: transform 0.5s ease-in-out;
+        }
 
-            animation-name: linkanimation;
-            animation-duration: 1s;
-            animation-delay: 0s;
+        .link:hover {
+
+            -webkit-transform: scale(2);
+            -ms-transform: scale(2);
+            transform: scale(2);
 
         }
 
@@ -80,7 +84,7 @@
 </div>
 
 <div class="LeftBar">
-    <font style="font-size:32px; color:#FFFFFF"> <br> <a id="link" href="https://github.com/Karski1Bi" > Github </a> <br><br> Projekty <br><br> Wyjścia  </font>
+    <font style="font-size:32px; color:#FFFFFF"> <br> <div class=link><a href="https://github.com/Karski1Bi" > Github </a></div> <br> Projekty <br><br> Wyjścia  </font>
 </div>
 
 <div class="PlaceForImage">
